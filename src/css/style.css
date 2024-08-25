@@ -2,3 +2,22 @@ body {
     background: purple;
     color: white
 }
+
+.container {
+    border: 2px solid black;
+    min-width: 400px;
+    min-height: 400px;
+    max-width: 600px;
+}
+
+.item-input,
+.item-btn {
+    margin: 10px;
+    padding: 5px;
+}
+
+.item-list {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+}
